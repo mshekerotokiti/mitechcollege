@@ -1,0 +1,32 @@
+.footer {
+    background-color: #2f358e;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .footer span {
+    font-size: 0.9rem;
+  }
+  .footer-link {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .footer-link:hover {
+    color: #ddd;
+  }
+  
+  
+  /* Optional: Responsive text alignment */
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+    .footer .container {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  
