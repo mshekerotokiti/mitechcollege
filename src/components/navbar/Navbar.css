@@ -1,0 +1,24 @@
+.custom-nav-link {
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .custom-nav-link:hover {
+    background-color: #2f358e; 
+    color: #ffffff !important;
+  }
+ 
+  .search-button {
+     background-color: #2f358e;
+    color: white;
+    border:black ; 
+    border-radius: 7px;
+
+  }
+
+  
+  /* .search-button:hover {
+    background-color: #121db1;
+  }
+   */
+  
