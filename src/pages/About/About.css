@@ -1,0 +1,105 @@
+h1, h2 {
+  color: #c1121f;
+}
+
+  
+.hover-underline {
+  display: inline-block;
+  position: relative;
+  color: #c1121f; /* Theme red */
+}
+
+.hover-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 3px;
+  background-color: #2f358e;
+  transition: width 0.3s ease;
+}
+
+.hover-underline:hover::after {
+  width: 100%;
+}
+
+  hr {
+    border: none;
+    border-bottom: 3px solid #2f358e;
+    width: 60px;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  hr:hover {
+    border-color: #2f358e;
+    width: 80px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .border.bg-light.hover-card {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  
+  .btn.b {
+    background-color: #c1121f;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn.b:hover {
+    background-color: #a50d1a;
+  }
+  .why-choose-section {
+    position: relative;
+    background: url('/src/assets/img6.jpeg') no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 4rem 1rem;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .why-choose-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    z-index: 1;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .why-choose-section > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    } 
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .short-courses-heading {
+    color: #c1121f; /* Ensure it uses your theme red */
+    font-weight: 600;
+    margin-bottom: 2rem; /* Adds extra space below the heading */
+  }
+  
+  .hover-card {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .hover-card:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-5px);
+  }
+  
