@@ -12,7 +12,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className="p-2" style={{ backgroundColor: "#D9D9D9", fontFamily: 'Roboto' }}>
+    <section className="p-2" style={{ backgroundColor: "#D9D9D9", fontFamily: 'Roboto' ,fontSize: '35px'}}>
       <div className="container py-5">
         <div className="text-center mb-5">
           <h2 className="hover-underline">MITECH DRIVING SCHOOL & COMPUTER COLLEGE</h2>
