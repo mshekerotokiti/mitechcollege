@@ -45,13 +45,14 @@ h1, h2 {
   
   
   .btn.b {
-    background-color: #c1121f;
+    background-color: #2f358e;
     color: #fff;
     border: none;
   }
   
   .btn.b:hover {
-    background-color: #a50d1a;
+    background-color: red;
+    color: white;
   }
   .why-choose-section {
     position: relative;
@@ -87,11 +88,11 @@ h1, h2 {
     }
   }
   
-  .short-courses-heading {
-    color: #c1121f; /* Ensure it uses your theme red */
+  /* .short-courses-heading {
+    color: #c1121f; 
     font-weight: 600;
     margin-bottom: 2rem; /* Adds extra space below the heading */
-  }
+  
   
   .hover-card {
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -101,5 +102,9 @@ h1, h2 {
   .hover-card:hover {
     background-color: #f8f9fa;
     transform: translateY(-5px);
+  }
+  
+  .course-icon {
+    color: #2f358e; /* Custom blue theme */
   }
   
