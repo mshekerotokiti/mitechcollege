@@ -1,10 +1,58 @@
+/* === COLOR UTILITIES === */
+.primary-blue {
+  color: #2f358e;
+}
+
+.bg-primary-blue {
+  background-color: #2f358e;
+}
+
+/* === BUTTON STYLES === */
+.btn-primary-blue {
+  background-color: #2f358e !important;
+  color: white !important;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary-blue:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+/* === LINK HOVER EFFECT === */
+a.primary-blue:hover {
+  color: #2f358e;
+  transition: all 0.3s ease;
+}
+
+/* === OPTIONAL HEADER STYLES === */
+/* Uncomment if using custom header underline effect
+.contact-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2f358e;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.contact-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 4px;
+  background-color: #2f358e;
+  border-radius: 2px;
+}
+*/
+
+/* Optional hover underline utility */
+/*
 .hover-underline:hover {
-    text-decoration: underline;
-  }
-  
-  /* textarea:focus,
-  input:focus {
-    box-shadow: none !important;
-    border-color: #0d6efd;
-  } */
-  
+  text-decoration: underline;
+}
+*/
