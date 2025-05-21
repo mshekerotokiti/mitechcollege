@@ -4,6 +4,7 @@ import img1 from '../../assets/img5.jpeg';
 import img2 from '../../assets/img2.jpg';
 import img3 from '../../assets/img3.jpg';
 import img4 from '../../assets/img4.jpeg';
+import Testimonials from '../About/Testimonials';
 
 
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
   ];
 
   return (
+    <section>
     <div id="homepageCarousel" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         {slides.map((slide, index) => (
@@ -78,6 +80,15 @@ const Home = () => {
         <span className="visually-hidden">Next</span>
       </button>
     </div>
+    <div className="bg-body-secondary py-3 rounded shadow-sm" data-aos="fade-left">
+          <Testimonials />
+        </div>
+
+        <div className="text-center mt-4" data-aos="zoom-in-up">
+          <h5 className="text-danger">Join us today and take the first step towards a safer, smarter future!</h5>
+          <a href="/contactus" className="btn b mt-3">Contact Us</a>
+        </div>
+    </section>
   );
 };
 

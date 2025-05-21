@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter> {/* ✅ WRAP App WITH THIS */}
+    <BrowserRouter> 
       <App />
     </BrowserRouter>
   </React.StrictMode>

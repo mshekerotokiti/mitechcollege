@@ -6,6 +6,10 @@ import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import About from './pages/About/About';
 import ContactUs from './pages/Contact/ContactUs';
+import Faqs from './pages/FAQs/Faqs';
+import CourseDetail from './pages/Courses/CourseDetail';
+
+
 
 
 
@@ -18,6 +22,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path='/contactus' element= {<ContactUs />} />
+          <Route path='/faqs' element={<Faqs/>}  />
+          <Route path="/courses/:courseSlug" element={<CourseDetail />} />
         </Routes>
 
         <Footer />
