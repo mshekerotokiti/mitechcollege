@@ -57,7 +57,7 @@ const courseDetails = {
     title: "Artificial Intelligence",
     duration: "8 Weeks",
     cost: "KES 25,000",
-    description: `Get introduced to AI concepts including machine learning, automation, data training, and ethical implications. Build models and learn how AI impacts modern systems.`,
+    description: `Get introduced to AI concepts including machine learning, automation, data training, and ethical implications.Learn how AI impacts modern systems.`,
   },
   "digital-marketing": {
     title: "Digital Marketing",
@@ -73,22 +73,22 @@ const courseDetails = {
   },
   "german-language": {
     title: "German Language",
-    duration: "8 Weeks",
+    duration: "8 Weeks Each",
     cost: "KES 18,000",
-    description: `Start your German learning journey with basic greetings, everyday vocabulary, grammar, and simple dialogues. Perfect for visa applicants and beginners.`,
+    description: `Start your German learning journey with basic greetings, everyday vocabulary, grammar, and simple dialogues. Perfect for visa applicants and beginners. German A2(18,000)-Enhance your German with more grammar, reading, and spoken skills. Focuses on everyday interactions, writing, and comprehension. German B1(20,000)-Advance your German to confidently handle conversations, writing emails, understanding media, and preparing for B1 certification exams.`,
   },
-  "german-a2": {
-    title: "German Language A2",
-    duration: "8 Weeks",
-    cost: "KES 18,000",
-    description: `Enhance your German with more grammar, reading, and spoken skills. Focuses on everyday interactions, writing, and comprehension.`,
-  },
-  "german-b1": {
-    title: "German Language B1",
-    duration: "8 Weeks",
-    cost: "KES 20,000",
-    description: `Advance your German to confidently handle conversations, writing emails, understanding media, and preparing for B1 certification exams.`,
-  },
+  // "german-a2": {
+  //   title: "German Language A2",
+  //   duration: "8 Weeks",
+  //   cost: "KES 18,000",
+  //   description: `Enhance your German with more grammar, reading, and spoken skills. Focuses on everyday interactions, writing, and comprehension.`,
+  // },
+  // "german-b1": {
+  //   title: "German Language B1",
+  //   duration: "8 Weeks",
+  //   cost: "KES 20,000",
+  //   description: `Advance your German to confidently handle conversations, writing emails, understanding media, and preparing for B1 certification exams.`,
+  // },
 };
 
 const CourseDetail = () => {

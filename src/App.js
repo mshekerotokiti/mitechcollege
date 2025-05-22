@@ -15,7 +15,7 @@ import CourseDetail from './pages/Courses/CourseDetail';
 
 function App() {
   return (
-      <div className="d-flex flex-column min-vh-100">
+    <div className="page-wrapper d-flex flex-column min-vh-100">
         <Navbar />
         
         <Routes>

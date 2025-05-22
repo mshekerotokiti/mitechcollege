@@ -18,14 +18,14 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top py-3">
         <div className="container">
           {/* Logo */}
-          <NavLink className="navbar-brand py-2" to="/">
+          <NavLink className="navbar-brand py-4" to="/">
             <img
               src={logo}
               alt="Logo"
               style={{
                 height: 'auto',
-                maxWidth: '65px',
-                transform: 'scale(3.0)',
+                maxWidth: '68px',
+                transform: 'scale(3.5)',
               }}
             />
           </NavLink>

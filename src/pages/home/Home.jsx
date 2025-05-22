@@ -21,7 +21,7 @@ const Home = () => {
       title: ' Become Tech-Savvy at Mitech',
       subtitle: 'Master essential digital skills for work and life.',
       points: 'Microsoft Office | Coding | Graphic Design | AI Skills and so much more',
-      button: 'View Courses',
+      // button: 'View Courses',
     },
     {
       image: img3, 
@@ -61,7 +61,7 @@ const Home = () => {
                 <h1 className="fw-bold">{slide.title}</h1>
                 <p className="lead">{slide.subtitle}</p>
                 <p>{slide.points}</p>
-                <a href="/contact" className="btn btn-warning btn-lg mt-3">
+                <a href="/contactus" className="btn btn-warning btn-lg mt-3">
                   {slide.button}
                 </a>
               </div>
@@ -80,14 +80,11 @@ const Home = () => {
         <span className="visually-hidden">Next</span>
       </button>
     </div>
-    <div className="bg-body-secondary py-3 rounded shadow-sm" data-aos="fade-left">
-          <Testimonials />
-        </div>
-
-        <div className="text-center mt-4" data-aos="zoom-in-up">
-          <h5 className="text-danger">Join us today and take the first step towards a safer, smarter future!</h5>
-          <a href="/contactus" className="btn b mt-3">Contact Us</a>
-        </div>
+    <div className='text-center'>
+    <Testimonials />
+    <h5 className="text-danger">Join us today and take the first step towards a safer, smarter future!</h5>
+    <a href="/contactus" className="btn b mt-3">Contact Us</a>
+    </div>
     </section>
   );
 };

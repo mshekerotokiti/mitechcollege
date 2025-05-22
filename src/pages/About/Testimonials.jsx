@@ -3,8 +3,8 @@ import React from 'react';
 import './About.css';
 
 const Testimonials = () => (
-  <div className="mb-5" data-aos="fade-up">
-    <h4 className="hover-underline text-center py-2">What Our Students Say</h4>
+  <div className="mb-5">
+    <h4 className="hover-underline text-center py-2">WHAT OUR STUDENTS SAY</h4>
     <div className="row text-center mt-4">
       <div className="col-md-4">
         <blockquote className="blockquote">
