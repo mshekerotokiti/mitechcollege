@@ -1,32 +1,36 @@
 .footer {
-    background-color: #2f358e;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    z-index: 100;
-  }
-  
-  .footer span {
-    font-size: 0.9rem;
-  }
-  .footer-link {
-    color: #ffffff;
-    text-decoration: underline;
-  }
-  
-  .footer-link:hover {
-    color: #ddd;
-  }
-  
-  
-  /* Optional: Responsive text alignment */
-  @media (max-width: 768px) {
-    .footer {
-      text-align: center;
-    }
-    .footer .container {
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-  }
-  
+  background-color: #2f358e;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ff4d4f;
+  text-decoration: underline;
+}
+
+.footer-icon {
+  color: white;
+  font-size: 1.25rem;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.footer-icon:hover {
+  color: #ff4d4f;
+}
+
+.subscribe-btn {
+  background-color: #ff4d4f !important;
+  border: none;
+  color: white;
+}
+
+.subscribe-btn:hover {
+  background-color: #c82333;
+}
